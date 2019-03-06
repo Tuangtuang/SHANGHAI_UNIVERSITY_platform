@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "message": null,
+  "receivemsg": [
+    {
+      "messageid": 0,
+      "title": "史蒂夫·乔布斯1",
+      "date": "2012-2-2",
+      "senderid": "16122075",
+      "sendernickname": "刘某人",
+      "status": "new"
+    },
+    {
+      "messageid": 1,
+      "title": "史蒂夫·乔布斯2",
+      "date": "2013-2-2",
+      "senderid": "16122075",
+      "sendernickname": "刘某人",
+      "status": "new"
+    },
+    {
+      "messageid": 2,
+      "title": "史蒂夫·乔布斯3",
+      "date": "2012-5-2",
+      "senderid": "16122075",
+      "sendernickname": "刘某人",
+      "status": ""
+    },
+    {
+      "messageid": 3,
+      "title": "史蒂夫·乔布斯4",
+      "date": "2012-2-2",
+      "senderid": "16122075",
+      "sendernickname": "刘某人",
+      "status": ""
+    },
+    {
+      "messageid": 4,
+      "title": "史蒂夫·乔布斯5",
+      "date": "2012-2-2",
+      "senderid": "16122075",
+      "sendernickname": "刘某人",
+      "status": ""
+    }
+  ]
+}

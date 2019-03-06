@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "message": null,
+  "mission": [
+    {
+      "missionid": 6,
+      "acceptid": "16122075",
+      "acceptnickname": "li",
+      "content": "求带早餐1！",
+      "startdate": "2019-01-01 07:50",
+      "enddate": "2019-01-01 09:40",
+      "phone": "12345678901",
+      "missionstatus": "进行中"
+    },
+    {
+      "missionid": 7,
+      "acceptid": "16122075",
+      "acceptnickname": "li",
+      "content": "帮取快递1！",
+      "startdate": "2019-01-01 08:50",
+      "enddate": "2019-01-02 08:40",
+      "phone": "98765432109",
+      "missionstatus": "等待确认完成"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "message": null,
+  "hotreply": [
+    {
+      "commentid": 0,
+      "author": "16122075",
+      "authornickname": "li",
+      "content": "我要参加！",
+      "date": "2019-01-01",
+      "likenum": 40,
+      "likestatus": "true"
+    },
+    {
+      "commentid": 1,
+      "author": "16122072",
+      "authornickname": "lq",
+      "content": "没意思",
+      "date": "2019-01-01",
+      "likenum": 10,
+      "likestatus": "false"
+    }
+  ]
+}

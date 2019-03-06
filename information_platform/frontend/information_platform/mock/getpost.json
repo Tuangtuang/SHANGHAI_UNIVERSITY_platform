@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "message": null,
+  "post": [
+    {
+      "postid": 213,
+      "label": "体育",
+      "title": "校园运动会",
+      "author": "16122075",
+      "authornickname": "li",
+      "date": "2019-02-05",
+      "commentnum": 10,
+      "likenum": 10
+    },
+    {
+      "postid": 214,
+      "label": "体育",
+      "title": "校园运动会1",
+      "author": "16122075",
+      "authornickname": "li",
+      "date": "2019-02-04",
+      "commentnum": 11,
+      "likenum": 12
+    }
+  ]
+}

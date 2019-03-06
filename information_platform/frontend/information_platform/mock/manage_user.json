@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "message": null,
+  "data": [
+    {
+      "id":0,
+      "name":"789",
+      "number":"16121789",
+      "status":"封禁",
+      "forbid_type":"论坛封禁",
+      "forbid_reason":"敏感词汇",
+      "password":"123123",
+      "forbid_date":"2012-2-2"
+    },
+    {
+      "id":1,
+      "name":"789",
+      "number":"16121789",
+      "status":"封禁",
+      "forbid_type":"论坛封禁",
+      "forbid_reason":"敏感词汇",
+      "password":"123123",
+      "forbid_date":"2012-2-2"
+    },
+    {
+      "id":2,
+      "name":"789",
+      "number":"16121789",
+      "status":"封禁",
+      "forbid_type":"论坛封禁",
+      "forbid_reason":"敏感词汇",
+      "password":"123123",
+      "forbid_date":"2012-2-2"
+    },
+    {
+      "id":3,
+      "name":"789",
+      "number":"16121789",
+      "status":"未封禁",
+      "forbid_type":"",
+      "forbid_reason":"",
+      "password":"123123",
+      "forbid_date":""
+    },
+    {
+      "id":4,
+      "name":"789",
+      "number":"16121789",
+      "status":"未封禁",
+      "forbid_type":"",
+      "forbid_reason":"",
+      "password":"123123",
+      "forbid_date":""
+    }
+  ]
+}

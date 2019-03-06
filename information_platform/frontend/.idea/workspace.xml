@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5a7e8b7-4360-47f3-86b6-cf9ed0b696df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/information_platform/src/views/Manage/HelpDelete.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/ForumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/LostFindController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/LostFindController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/NoticeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/NoticeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Alarm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/AlarmExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/AlarmExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/AlarmExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/AlarmExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Ban_Reasons.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Ban_Reasons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Ban_ReasonsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Ban_ReasonsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Ban_ReasonsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Ban_ReasonsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Blacklist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Blacklist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/BlacklistExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/BlacklistExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/BlacklistExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/BlacklistExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Friends.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Friends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/FriendsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/FriendsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/FriendsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/FriendsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Help.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Help.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/HelpExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/HelpExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/HelpExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/HelpExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Likes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Likes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LikesExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LikesExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LikesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LikesExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Lostlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Lostlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LostlistExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LostlistExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LostlistExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/LostlistExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Managers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Managers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ManagersExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ManagersExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ManagersExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ManagersExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Notices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Notices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/NoticesExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/NoticesExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/NoticesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/NoticesExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Private_Charts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Private_Charts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Private_ChartsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Private_ChartsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Private_ChartsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Private_ChartsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tag_Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tag_Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tag_UsersExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tag_UsersExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tag_UsersExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tag_UsersExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tags.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Tags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/TagsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/TagsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/TagsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/TagsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Unlock_Apply.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Unlock_Apply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Unlock_ApplyExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Unlock_ApplyExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Unlock_ApplyExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Unlock_ApplyExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Views.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/Views.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ViewsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ViewsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ViewsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/entity/ViewsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/AppealSend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/AppealSend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/EditPwd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/EditPwd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumChangeCommentLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumChangeCommentLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumChangeLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumChangeLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumCreateComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumCreateComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumCreatePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumCreatePost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetAllComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetAllComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetCommentLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetCommentLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetHotComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetHotComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ForumGetLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/Logout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/LostAFoundDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/LostAFoundDelete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/LostAFoundPublish.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/LostAFoundPublish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/MessageDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/MessageDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/MessageSend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/MessageSend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ReportCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/ReportCreate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/UserDeleteComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/UserDeleteComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/UserDeletePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/UserDeletePost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/UserSetMyself.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/UserSetMyself.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/addFriend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/addFriend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/addToBlackList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/addToBlackList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/changeHelpState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/changeHelpState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/claimTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/claimTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/finishedHelp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/finishedHelp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/publishTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/publishTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/unclaimHelp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/jsonRequest/unclaimHelp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/AppealGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/AppealGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/AppealGetDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/AppealGetDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/FindNoticeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/FindNoticeInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumBest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumBest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumChangeCommentLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumChangeCommentLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumChangeLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumChangeLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetAllComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetAllComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetCommentLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetCommentLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetHotComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetHotComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumGetLike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumNewPublish.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumNewPublish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumNewReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumNewReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumRecommend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/ForumRecommend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/IfManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/IfManage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/LostAFoundBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/LostAFoundBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/LostAFoundMyBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/LostAFoundMyBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/MessageDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/MessageDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/MessageReceive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/MessageReceive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/MessageSent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/MessageSent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetFriend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetFriend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserGetUserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserShowMyself.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/model/ov/UserShowMyself.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/ForumServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/ForumServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/HelpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/HelpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/LostFindServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/LostFindServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/MessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/NoticeServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/NoticeServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/NoticeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/NoticeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/tools/AuthTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/tools/AuthTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/tools/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/platform/target/classes/com/example/demo/tools/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_platform/src/components/M_Sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/information_platform/src/components/M_Sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_platform/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/information_platform/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_platform/src/views/ForumDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/information_platform/src/views/ForumDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_platform/src/views/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/information_platform/src/views/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_platform/src/views/LostAFound/Board.vue" beforeDir="false" afterPath="$PROJECT_DIR$/information_platform/src/views/LostAFound/Board.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_platform/src/views/LostAFound/MyBoard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/information_platform/src/views/LostAFound/MyBoard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_platform/src/views/Manage/Inbox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/information_platform/src/views/Manage/Inbox.vue" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2047331667">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/information_platform/build/webpack.dev.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" selection-start-line="36" selection-end-line="65" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="information_platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5a7e8b7-4360-47f3-86b6-cf9ed0b696df" name="Default Changelist" comment="" />
+      <created>1551418053862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551418053862</updated>
+      <workItem from="1551418055293" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/information_platform/mock/appealget.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_platform/mock/addblacklist.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_platform/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="65" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

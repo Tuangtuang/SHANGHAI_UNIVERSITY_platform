@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "message": null,
+  "userlist": [
+    {
+      "id": "16122075",
+      "nickname": "li"
+    },
+    {
+      "id": "16122076",
+      "nickname": "abc"
+    }
+  ]
+}

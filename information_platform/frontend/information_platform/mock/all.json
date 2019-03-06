@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "message": null,
+  "post": [
+    {
+      "postid": 6,
+      "label": 0,
+      "title": "新生杯3",
+      "author": "16122075",
+      "authornickname": "li",
+      "date": "2019-01-01",
+      "commentnum": 15,
+      "likenum": 35
+    },
+    {
+      "postid": 7,
+      "label": 0,
+      "title": "校园运动会3",
+      "author": "16122076",
+      "authornickname": "lq",
+      "date": "2019-01-01",
+      "commentnum": 5,
+      "likenum": 0
+    }
+  ]
+}

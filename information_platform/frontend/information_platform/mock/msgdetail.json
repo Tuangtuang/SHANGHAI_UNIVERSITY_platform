@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "message": null,
+  "msg": {
+    "messageid": 1,
+    "title": "这是我测试的标题数据呀",
+    "content": "你猜猜里面有些啥呢？",
+    "date": "2019-01-31"
+  }
+}

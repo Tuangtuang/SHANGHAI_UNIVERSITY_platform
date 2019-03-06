@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "message": null,
+  "post": [
+    {
+      "postid": 0,
+      "label": "体育",
+      "title": "新生杯",
+      "author": "16122075",
+      "authornickname": "li",
+      "date": "2019-01-01",
+      "likenum": 40,
+      "commentnum": 20
+    },
+    {
+      "postid": 1,
+      "label": "体育",
+      "title": "校园运动会",
+      "author": "16122076",
+      "authornickname": "lq",
+      "date": "2019-01-01",
+      "likenum": 0,
+      "commentnum": 5
+    },
+    {
+      "postid": 2,
+      "label": "学术",
+      "title": "挑战杯组队",
+      "author": "16235432",
+      "authornickname": "lw",
+      "date": "2019-01-01",
+      "likenum": 0,
+      "commentnum": 1
+    },
+    {
+      "postid": 3,
+      "label": "音乐",
+      "title": "校园十大歌",
+      "author": "16235432",
+      "authornickname": "le",
+      "date": "2019-01-01",
+      "likenum": 25,
+      "commentnum": 10
+    }
+  ]
+}

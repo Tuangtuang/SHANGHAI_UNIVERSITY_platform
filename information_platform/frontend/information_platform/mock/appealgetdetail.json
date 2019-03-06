@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "message": null,
+  "detail": [
+    {
+      "type": "论坛发帖封禁",
+      "content": "校园运动会1",
+      "reason": "重复发帖，涉嫌广告",
+      "date": "2019-02-20"
+    },
+    {
+      "type": "论坛回帖封禁",
+      "content": "沙发",
+      "reason": "无价值内容",
+      "date": "2019-02-10"
+    }
+  ]
+}

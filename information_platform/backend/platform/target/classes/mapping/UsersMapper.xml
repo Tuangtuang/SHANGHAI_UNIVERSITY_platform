@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.dao.UsersMapper" >
+  <resultMap id="BaseResultMap" type="com.example.demo.model.entity.Users" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="identity" property="identity" jdbcType="INTEGER" />
+    <result column="banType" property="bantype" jdbcType="INTEGER" />
+    <result column="banState" property="banstate" jdbcType="INTEGER" />
+    <result column="banReason" property="banreason" jdbcType="VARCHAR" />
+    <result column="banStart" property="banstart" jdbcType="TIMESTAMP" />
+    <result column="banEnd" property="banend" jdbcType="TIMESTAMP" />
+    <result column="coins" property="coins" jdbcType="INTEGER" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, name, identity, banType, banState, banReason, banStart, banEnd, coins, password
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.example.demo.model.entity.UsersExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'true' as QUERYID,
+    <include refid="Base_Column_List" />
+    from Users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from Users
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from Users
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.example.demo.model.entity.UsersExample" >
+    delete from Users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.example.demo.model.entity.Users" >
+    insert into Users (id, name, identity, 
+      banType, banState, banReason, 
+      banStart, banEnd, coins, 
+      password)
+    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{identity,jdbcType=INTEGER}, 
+      #{bantype,jdbcType=INTEGER}, #{banstate,jdbcType=INTEGER}, #{banreason,jdbcType=VARCHAR}, 
+      #{banstart,jdbcType=TIMESTAMP}, #{banend,jdbcType=TIMESTAMP}, #{coins,jdbcType=INTEGER}, 
+      #{password,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.example.demo.model.entity.Users" >
+    insert into Users
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="identity != null" >
+        identity,
+      </if>
+      <if test="bantype != null" >
+        banType,
+      </if>
+      <if test="banstate != null" >
+        banState,
+      </if>
+      <if test="banreason != null" >
+        banReason,
+      </if>
+      <if test="banstart != null" >
+        banStart,
+      </if>
+      <if test="banend != null" >
+        banEnd,
+      </if>
+      <if test="coins != null" >
+        coins,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null" >
+        #{identity,jdbcType=INTEGER},
+      </if>
+      <if test="bantype != null" >
+        #{bantype,jdbcType=INTEGER},
+      </if>
+      <if test="banstate != null" >
+        #{banstate,jdbcType=INTEGER},
+      </if>
+      <if test="banreason != null" >
+        #{banreason,jdbcType=VARCHAR},
+      </if>
+      <if test="banstart != null" >
+        #{banstart,jdbcType=TIMESTAMP},
+      </if>
+      <if test="banend != null" >
+        #{banend,jdbcType=TIMESTAMP},
+      </if>
+      <if test="coins != null" >
+        #{coins,jdbcType=INTEGER},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <select id="countByExample" parameterType="com.example.demo.model.entity.UsersExample" resultType="java.lang.Integer" >
+    select count(*) from Users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update Users
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.name != null" >
+        name = #{record.name,jdbcType=VARCHAR},
+      </if>
+      <if test="record.identity != null" >
+        identity = #{record.identity,jdbcType=INTEGER},
+      </if>
+      <if test="record.bantype != null" >
+        banType = #{record.bantype,jdbcType=INTEGER},
+      </if>
+      <if test="record.banstate != null" >
+        banState = #{record.banstate,jdbcType=INTEGER},
+      </if>
+      <if test="record.banreason != null" >
+        banReason = #{record.banreason,jdbcType=VARCHAR},
+      </if>
+      <if test="record.banstart != null" >
+        banStart = #{record.banstart,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.banend != null" >
+        banEnd = #{record.banend,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.coins != null" >
+        coins = #{record.coins,jdbcType=INTEGER},
+      </if>
+      <if test="record.password != null" >
+        password = #{record.password,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update Users
+    set id = #{record.id,jdbcType=VARCHAR},
+      name = #{record.name,jdbcType=VARCHAR},
+      identity = #{record.identity,jdbcType=INTEGER},
+      banType = #{record.bantype,jdbcType=INTEGER},
+      banState = #{record.banstate,jdbcType=INTEGER},
+      banReason = #{record.banreason,jdbcType=VARCHAR},
+      banStart = #{record.banstart,jdbcType=TIMESTAMP},
+      banEnd = #{record.banend,jdbcType=TIMESTAMP},
+      coins = #{record.coins,jdbcType=INTEGER},
+      password = #{record.password,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.demo.model.entity.Users" >
+    update Users
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null" >
+        identity = #{identity,jdbcType=INTEGER},
+      </if>
+      <if test="bantype != null" >
+        banType = #{bantype,jdbcType=INTEGER},
+      </if>
+      <if test="banstate != null" >
+        banState = #{banstate,jdbcType=INTEGER},
+      </if>
+      <if test="banreason != null" >
+        banReason = #{banreason,jdbcType=VARCHAR},
+      </if>
+      <if test="banstart != null" >
+        banStart = #{banstart,jdbcType=TIMESTAMP},
+      </if>
+      <if test="banend != null" >
+        banEnd = #{banend,jdbcType=TIMESTAMP},
+      </if>
+      <if test="coins != null" >
+        coins = #{coins,jdbcType=INTEGER},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.demo.model.entity.Users" >
+    update Users
+    set name = #{name,jdbcType=VARCHAR},
+      identity = #{identity,jdbcType=INTEGER},
+      banType = #{bantype,jdbcType=INTEGER},
+      banState = #{banstate,jdbcType=INTEGER},
+      banReason = #{banreason,jdbcType=VARCHAR},
+      banStart = #{banstart,jdbcType=TIMESTAMP},
+      banEnd = #{banend,jdbcType=TIMESTAMP},
+      coins = #{coins,jdbcType=INTEGER},
+      password = #{password,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+
+  <!--添加根据用户id获取昵称的方法-->
+  <select id="getById" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from Users
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+</mapper>
